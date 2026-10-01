@@ -150,15 +150,7 @@ body {
     right: 0;
     background: linear-gradient(to left, #ffffff, rgba(255, 255, 255, 0));
 }
-/* Team Marquee specific fades (white background) */
-section.bg-surface .marquee-container::before {
-    left: 0;
-    background: linear-gradient(to right, #f8fafc, rgba(248, 250, 252, 0));
-}
-section.bg-surface .marquee-container::after {
-    right: 0;
-    background: linear-gradient(to left, #f8fafc, rgba(248, 250, 252, 0));
-}
+
 .marquee-content {
     display: flex;
     animation: scroll-marquee 40s linear infinite;
@@ -198,24 +190,6 @@ section.bg-surface .marquee-container::after {
     border-color: rgba(99, 102, 241, 0.3);
     color: #4f46e5;
     background-color: #ffffff;
-}
-
-.team-pill {
-    display: flex;
-    align-items: center;
-    gap: 1.25rem;
-    padding: 0.6rem 2rem 0.6rem 0.6rem;
-    background: #ffffff;
-    border: 1px solid #e2e8f0;
-    border-radius: 9999px;
-    margin: 0 1rem;
-    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
-    transition: all 0.3s;
-}
-.team-pill:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
-    border-color: #cbd5e1;
 }
 
 /* Floating Animation */
